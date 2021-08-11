@@ -1,0 +1,49 @@
+Web Scrapping : Web Scrapping is a program to fetch all the data from the website.
+For this we will use Google Inspect, Selenium
+Exoplanets - A planet that orbits a star outside the solar system 
+We will scrape this website's data 
+There are 4277 expolanets in 428 pages 
+===========================================================
+
+https://exoplanets.nasa.gov/discovery/exoplanet-catalog/
+
+===========================================================
+
+Create a virtual environment in the current directory 
+Open cmd 
+python -m venv venv
+
+activate the virtual environment
+venv\Scripts\activate.bat
+===========================================================
+
+pip install for the below modules :
+pip install bs4
+pip install selenium 
+
+===========================================================
+
+bs4(BeautifulSoup) is a python modules which is used for parsing text as HTML 
+and then perform actions in it such as finding sepcific HTML tags with a particular class / id or 
+listing out all the li tags inside the ul tags 
+
+============================================================
+
+Seleniumis used to interact with the webpages
+It is used for automation testing 
+But can be used to interact with the page such as clicking the button and etc.
+
+
+============================================================
+
+Since we have to scrape the data from 428 pages clicking on the button and go to the next page (Selenium helps)
+
+
+
+Download and install chromedriver from the below given link 
+It is a driver that helps us to open chrome browser to open with selenium
+https://chromedriver.chromium.org/downloads
+
+===============================================================
+
+Enumerate will give us both the index and the elements of that index
